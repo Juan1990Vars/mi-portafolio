@@ -1,0 +1,68 @@
+img {
+    width: 50px;
+}
+  
+.hidden {
+    display: none;
+  }
+
+.slider {
+    display: flex;
+    
+}
+
+.slider__div {
+    width: 85%;
+    margin: auto;
+    /* background-color: blueviolet; */
+}
+
+.projects {
+    padding: 6em;
+}
+
+.slider__button {
+    /* background-color: blue; */
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.slider__i {
+    /* background-color: red; */
+    font-size: 35px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+p {
+    text-align: justify;
+}
+
+.p__tecnology {
+    text-align: center;
+}
+
+.bx-link {
+    background-color: #ff8000;
+    color: #0000FF;
+    border-radius: 50px;
+}
+.bxl-github {
+    background-color: #fff;
+    color: #171515 ;
+    border-radius: 50px;
+}
+
+/* Responsive */
+@media screen and (max-width: 590px) {
+    .nav__ul {
+        display: none;
+        
+    }
+    .projects{
+        /* display: contents; */
+        padding: 3em;
+    }
+}

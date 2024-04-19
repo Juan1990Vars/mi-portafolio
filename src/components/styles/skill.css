@@ -1,0 +1,77 @@
+.skill {
+    box-sizing: border-box;
+    /* width: 85%; */
+    /* margin: auto; */
+    padding: 6em;
+}
+
+.skill__title {
+    text-transform: capitalize;
+}
+
+.skill__ul {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.skill__li {
+    position: relative;
+    transform-style: preserve-3d;
+    animation: animate 20s linear infinite;
+    animation-duration: 8s;
+    text-align: center;
+    padding: 1em;
+}
+
+@keyframes animate {
+    0% {
+        transform: perspective(1000px) rotateY(0deg);
+    }
+    100% {
+        transform: perspective(1000px) rotateY(360deg);
+    }
+}
+
+.html {
+    color: #e34c26;
+}
+.css {
+    color: #264de4;
+}
+.js {
+    color: #f0db4f;
+}
+.react {
+    color: #61dbfb;
+}
+.node {
+    color: #68a063;
+}
+.postgres {
+    color: #336791;
+}
+.mysql {
+    color: #00758f;
+}
+.powerbi {
+    color: #f6d958;
+}
+
+.skill__img {
+    width: 100px;
+    height: 100px;
+}
+
+/* Responsive */
+@media screen and (max-width: 590px) {
+    .nav__ul {
+        display: none;
+        
+    }
+    .skill{
+        /* display: contents; */
+        padding: 3em;
+    }
+}

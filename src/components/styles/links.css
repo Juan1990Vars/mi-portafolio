@@ -1,0 +1,71 @@
+.links__ul {
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    /* margin-left: auto; */
+    z-index: 2000;
+    width: 100%;
+    /* height: 100%; */
+    /* margin-top: 12em; */
+}
+
+.links__ul li   {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position:relative;
+    width: 40px;
+    height: 40px;
+    font-size: 25px;
+    /* color: white; */
+    transition: 0.3s;
+    margin-right: 25px;
+    text-decoration: none;
+}
+
+.links__ul a::before {
+    content: '';
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    transform-origin: 100% 150%;
+    background-color: rgb(142, 4, 4);
+    border-radius: 20%;
+    right: -5px;
+    z-index: -1;
+    transform: rotate(20deg);
+    transition: 0.3s;
+}
+.links__ul a::after {
+    content: '';
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 0;
+    top: 0;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 20%;
+    z-index: -1;
+    border: 5px solid rgba(142, 4, 4, 0.6);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    transition: 0.3s;
+}
+.links__ul li a:hover::before {
+    transform: rotate(0deg);
+}
+
+.bxl-linkedin {
+    color: #0e76a8 ;
+}
+.bxl-github {
+    color: #171515;
+}
+.bxl-whatsapp {
+    color: #25D366;
+}
+.bxl-gmail {
+    color:#f2a60c;
+}

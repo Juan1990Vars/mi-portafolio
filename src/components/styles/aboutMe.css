@@ -1,0 +1,44 @@
+.container {
+    /* background-color: #9c9c9c; */
+    width: 75%;
+    margin: auto;
+    /* box-sizing: border-box; */
+    
+}
+
+hr {
+    background-color: black;
+}
+
+h2::first-letter {
+    font-size: 200%;
+}
+
+.container__title {
+    text-transform: capitalize;
+    margin-top: 6em;
+}
+
+.container__p {
+    /* background-color: red; */
+    text-align: justify;
+}
+
+.container__staff {
+    /* background-color: rgb(43, 9, 234); */
+    text-align: center;
+    letter-spacing: 2px; /* Espaciado entre letras */
+    margin-bottom: 2.5em;
+}
+
+/* Responsive */
+@media screen and (max-width: 690px) {
+    .nav__ul {
+        display: none;
+        
+    }
+    .container{
+        width: 85%;
+    }
+}
+

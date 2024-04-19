@@ -1,0 +1,127 @@
+.home__container {
+    padding-top: 10em;
+}
+.home__div {
+    text-align: center;
+    justify-content: center;
+    display: block;
+    padding: 5px;
+}
+.home__hello {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.3em;
+    text-align: left;
+    padding-left: 4em;
+}
+.home__hello span {
+    font-style: italic;
+    font-size: 1.2em;
+    /* font-family: cursive; */
+    /* font-size: 1.8em; */
+    /* text-align: left; */
+    /* padding-left: 5em; */
+}
+.home__web {
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    /* width: max-content; */
+    white-space: nowrap;
+    border-right: 5px solid;
+    animation: typing 5.5s steps(25) infinite, blink 0.3s steps(25) infinite ;
+    overflow: hidden;
+}
+@keyframes typing {
+    from{
+      width: 0%;
+    }
+    to { 
+      width: 100%;
+    }
+}
+@keyframes blink{
+    50% {
+      border-color: red;
+    }
+}
+
+.header__img {
+    filter: brightness(1.1);
+    /* mix-blend-mode: luminosity; */
+    border-radius: 100%;
+    box-shadow: 10px -10px 50px 1px ;
+    height: 350px;
+    width: 310px;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.btn {
+    margin-top: 10px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding: 10px;
+    animation-name: bounce;
+}
+.div__btn {
+    height: 60px;
+    width: 150px;
+    border-radius: 1em;
+    border: none;
+    background-color: #660000;
+}
+.btn__link {
+    color: white;
+    text-decoration: none;
+    font-size: 1.3em;
+}
+
+/* Responsivo */
+@media screen and (max-width: 600px) {
+    .home__container {
+        padding-top: 6.5em;
+    }
+    .home__hello {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1.3em;
+        text-align: left;
+        padding-left: 2em;
+    }
+    .home__name {
+        font-family: cursive;
+        font-size: 1em;
+        text-align: left;
+        padding-left: 2.5em;
+    }
+    .home__web {
+        display: inline-block;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1em;
+        /* width: max-content; */
+        white-space: nowrap;
+        border-right: 2.5px solid;
+        animation: typing 4.5s steps(25) infinite, blink 0.3s steps(25) infinite ;
+        overflow: hidden;
+    }
+    .header__img {
+        filter: brightness(1.1);
+        mix-blend-mode: luminosity;
+        border-radius: 100%;
+        height: 300px;
+        width: 260px;
+        margin: auto;
+        margin-top: 50px;
+    }
+}
+@media screen and (max-width: 450px) {
+    .header__img {
+        filter: brightness(1.1);
+        mix-blend-mode: luminosity;
+        border-radius: 100%;
+        height: 250px;
+        width: 210px;
+        margin: auto;
+        margin-top: 50px;
+    }
+}
