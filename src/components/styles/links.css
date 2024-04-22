@@ -69,3 +69,12 @@
 .bxl-gmail {
     color:#f2a60c;
 }
+
+/* responsive */
+@media screen and (max-width: 600px) {
+    .links__ul {
+        height: 5px;
+    }
+
+}
+
