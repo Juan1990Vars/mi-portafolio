@@ -28,7 +28,7 @@ const particlesConfig = {
     "zIndex": 0
   },
   "detectRetina": true,
-  "duration": 0,
+  "duration": 5,
   "fpsLimit": 120,
   "interactivity": {
     "detectsOn": "window",

@@ -17,8 +17,7 @@ const AboutMe = () => {
                     radico en México - Estado de México. Soy una persona
                     altamente proactiva y apasionada por las tecnologías.
                     Estoy muy emocionado de aplicar mis conocimientos y
-                    posisionarme como desarrollador Back-end y front-end
-                    con la finalidad de contribuir al exito de la empresa.
+                    posisionarme como desarrollador Back-end, front-end, Analista de Datos, con la finalidad de contribuir al exito de la empresa.
                 </p>
                 <br />
                 <p className='container__p'>
