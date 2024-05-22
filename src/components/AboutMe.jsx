@@ -11,13 +11,12 @@ const AboutMe = () => {
          <hr />
          <article className='container__description'>
             <div className='container__div'>
-                <h3 className='container__h3'>Desarrollador Web Full Stack</h3>
+                <h3 className='container__h3'>Informático Administrativo y Desarrollador Web Full Stack</h3>
                 <p className='container__p'>
-                    Saludos!! Soy Juan HV. Desarrollador Web Full Stack,
-                    radico en México - Estado de México. Soy una persona
+                    Saludos!! Soy Juan HV. Radico en Pblo Jaltepec 55965, Municipio de Axapusco, Estado de México. Soy una persona
                     altamente proactiva y apasionada por las tecnologías.
                     Estoy muy emocionado de aplicar mis conocimientos y
-                    posisionarme como desarrollador Back-end, front-end, Analista de Datos, con la finalidad de contribuir al exito de la empresa.
+                    posisionarme en el área de TI, Desarrollador Back-end, Front-end, Analista de Datos o Redes con la finalidad de contribuir al exito de la empresa.
                 </p>
                 <br />
                 <p className='container__p'>

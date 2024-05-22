@@ -8,7 +8,7 @@ const Home = () => {
             <h1 className='home__hello'>Hola!! Mi nombre es: <span>Juan Huerta Vargas</span></h1>
             {/* <h2 className='home__name'>Juan Huerta Vargas</h2> */}
             <br />
-            <p className='home__web'>Soy Desarrollador Web Full Stack</p>
+            <p className='home__web'>Soy Estudiante en la Licenciatura en Informática Adminstrativa <br />UAEMex CUVT</p>
         </div>
         <header className='nav__header'>
             <img className='header__img' src="./images/juanFoto.png" alt="" />
